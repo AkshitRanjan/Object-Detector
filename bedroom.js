@@ -5,7 +5,7 @@ objects_number = "";
 status = "";
 
 function preload() {
-    img = loadImage('photo_ac.jpg');
+    img = loadImage('photo_bedroom.jpg');
 }
 
 function setup() {
@@ -32,7 +32,7 @@ function draw() {
 
             objects_number = Number(objects[i]);
 
-            document.getElementById("number_of_objects").innerHTML = "There is 1 big object in the image out of which the CocoSSD model has detected" + objects_number + "objects";
+            document.getElementById("number_of_objects").innerHTML = "There are 6 big objects in the image out of which the CocoSSD model has detected" + objects_number + "objects";
         }
     }
 }

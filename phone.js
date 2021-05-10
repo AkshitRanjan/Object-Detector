@@ -5,7 +5,7 @@ objects_number = "";
 status = "";
 
 function preload() {
-    img = loadImage('photo_ac.jpg');
+    img = loadImage('photo_phone.jpg');
 }
 
 function setup() {

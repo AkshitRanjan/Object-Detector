@@ -5,7 +5,7 @@ objects_number = "";
 status = "";
 
 function preload() {
-    img = loadImage('photo_ac.jpg');
+    img = loadImage('photo_lamp.jpg');
 }
 
 function setup() {
